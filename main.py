@@ -71,6 +71,12 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             'color': colors['text']
         }
     ),
+    html.H2(
+        children='YouTube (the world-famous video sharing website) maintains a list of the top trending videos on the platform.',
+        style={
+            'color': colors['text']
+        }
+    ),
 
     html.Div(children='Top 10 Trending Youtube Channels', style={
         'textAlign': 'center',
