@@ -71,14 +71,14 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
             'color': colors['text']
         }
     ),
-    html.H2(
+    html.H3(
         children='YouTube (the world-famous video sharing website) maintains a list of the top trending videos on the platform.',
         style={
             'color': colors['text']
         }
     ),
 
-    html.Div(children='Top 10 Trending Youtube Channels', style={
+    html.H2(children='Top 10 Trending Youtube Channels', style={
         'textAlign': 'center',
         'color': colors['text']
     }),
@@ -87,7 +87,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         id='example-graph-1',
         figure=fig2
     ),
-    html.Div(children='Top 10 Videos', style={
+    html.H2(children='Top 10 Videos', style={
         'textAlign': 'center',
         'color': colors['text']
     }),
@@ -107,7 +107,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         figure=fig3
     ),
      
-    html.Div(children='Likes and Dislikes by Category', style={
+    html.H2(children='Likes and Dislikes by Category', style={
         'textAlign': 'center',
         'color': colors['text']
     }),
@@ -116,7 +116,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         id='example-graph-4',
         figure=fig4
     ),
-    html.Div(children='Comments by Category', style={
+    html.H2(children='Comments by Category', style={
         'textAlign': 'center',
         'color': colors['text']
     }),
