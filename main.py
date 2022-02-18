@@ -65,7 +65,7 @@ fig5 = px.bar(category_group, x=category_group.index, y=["comment_count"], color
 
 app.layout = html.Div(style={'backgroundColor': colors['background']}, children=[
     html.H1(
-        children='Trending Youtube Channels',
+        children='Trending Youtube Channels in France',
         style={
             'textAlign': 'center',
             'color': colors['text']
