@@ -97,7 +97,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         figure=fig
     ),
     
-    html.H3(children='Top Category', style={
+    html.H2(children='Top Category', style={
         'textAlign': 'center',
         'color': colors['text']
     }),
