@@ -72,7 +72,7 @@ app.layout = html.Div(style={'backgroundColor': colors['background']}, children=
         }
     ),
     html.H3(
-        children='YouTube (the world-famous video sharing website) maintains a list of the top trending videos on the platform.',
+        children='YouTube (the world-famous video sharing website) maintains a list of the top trending videos on the platform. This dataset includes several months (and counting) of data on daily trending YouTube videos. Data includes the video title, channel title, publish time, tags, views, likes and dislikes, description, and comment count.',
         style={
             'color': colors['text']
         }
