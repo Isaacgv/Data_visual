@@ -45,7 +45,7 @@ top_video = df.groupby("title").sum().sort_values("views", ascending=False).head
 fig2 = px.bar(x=top_video.views, y=top_video.index, color=top_video.views)
 
 top_category = df.groupby("category").sum().reset_index().sort_values("views", ascending=False).head(10)
-fig3 = px.bar(y=top_category.views, x=top_category.category)
+fig3 = px.bar(y=top_category.views, x=top_category.category, color=top_category.category )
 
 
 category_group = df.groupby("category").sum().sort_values("comment_count", ascending=False)
